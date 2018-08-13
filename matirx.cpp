@@ -2,15 +2,7 @@
 //最好的学习就是使用
 #include <iostream>
 #include <cmath>
-#include "matrix.h"
-
-
-
-
-
-
-
-
+#include "matrix.h
 
 
 void Matrix::setRows(int rows)
