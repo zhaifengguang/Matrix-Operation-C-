@@ -17,14 +17,14 @@ public:
 
 	~Matrix();
 
-	void   setElement();
-	Matrix operator+(const Matrix & mat);
+	void   setElement();//对矩阵元素赋初值
+	Matrix operator+(const Matrix & mat);//重载操作符，用于两个矩阵计算
 	Matrix operator-(const Matrix & mat);
 	Matrix operator*(const Matrix & mat);
 	Matrix operator*(const float scale);
 	Matrix operator[](int row);// 取出一行
-	Matrix operator()(int col);
-	Matrix transpose();
+	Matrix operator()(int col);//取出矩阵某一列
+	Matrix transpose();//矩阵转置
 	void   operator=(const Matrix & mat);
 	void   mprint();
 

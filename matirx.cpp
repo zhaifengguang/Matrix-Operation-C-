@@ -4,6 +4,15 @@
 #include <cmath>
 #include "matrix.h"
 
+
+
+
+
+
+
+
+
+
 void Matrix::setRows(int rows)
 {
 	numRows = rows;
@@ -41,7 +50,7 @@ void Matrix::setRows(int rows)
 
  }
 
- void Matrix::setElement(int i, int j, float val)
+ void Matrix::setElement(int i, int j, float val)//通过cin对矩阵元素进行赋值
  {
 	 if(i > numRows || j > numCols || i <= 0 || j <= 0)
 	 {
